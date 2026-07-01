@@ -1,0 +1,24 @@
+# ── Site settings ───────────────────────────────────────────────
+title: "Jyotismita Adhikary — Notes & Paintings"
+description: "Writing, paintings, and things I'm learning outside the lab."
+author: "Jyotismita Adhikary"
+
+# Link back to your main portfolio (shown in the nav). Edit or remove.
+portfolio_url: "https://JyotismitaAdhikary.github.io"
+
+# ── IMPORTANT: baseurl ──────────────────────────────────────────
+# If this site lives in a repo called e.g. "creative", your site URL is
+#   https://USERNAME.github.io/creative   →  set baseurl: "/creative"
+# If it lives in a repo named USERNAME.github.io, leave baseurl empty: ""
+baseurl: "/Creative"
+# url: "https://USERNAME.github.io"
+
+# ── Build settings ──────────────────────────────────────────────
+markdown: kramdown
+permalink: /blog/:year/:month/:title/
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor

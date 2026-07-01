@@ -1,0 +1,26 @@
+---
+layout: default
+permalink: /paintings/
+title: Paintings
+---
+
+<h1 class="page-title">Paintings</h1>
+<p class="page-intro">A growing collection. Click any image to view it full size.</p>
+
+<div class="gallery">
+  {% for painting in site.data.paintings %}
+  <figure class="gallery-item">
+    <a href="{{ painting.image | relative_url }}" target="_blank" rel="noopener">
+      <img src="{{ painting.image | relative_url }}" alt="{{ painting.title }}" loading="lazy">
+    </a>
+    <figcaption>
+      <span class="gallery-title">{{ painting.title }}</span>
+      {% if painting.caption %}<span class="gallery-caption">{{ painting.caption }}</span>{% endif %}
+    </figcaption>
+  </figure>
+  {% endfor %}
+</div>
+
+{% if site.data.paintings.size == 0 %}
+<p>No paintings yet. Add images to <code>assets/images/</code> and list them in <code>_data/paintings.yml</code>.</p>
+{% endif %}

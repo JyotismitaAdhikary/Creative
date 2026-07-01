@@ -1,0 +1,36 @@
+---
+layout: default
+permalink: /
+---
+
+<section class="hero">
+  <h1 class="hero-title">Hi, I'm Jyotismita.</h1>
+  <p class="hero-sub">A physicist by day. This is where I keep my writing, my paintings, and the things I'm learning outside the lab.</p>
+</section>
+
+<section class="home-section">
+  <h2 class="section-head">Latest posts</h2>
+  <ul class="post-list">
+    {% for post in site.posts limit:5 %}
+    <li class="post-list-item">
+      <a class="post-list-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <span class="post-list-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+      {% if post.excerpt %}<p class="post-list-excerpt">{{ post.excerpt | strip_html | truncatewords: 25 }}</p>{% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+  <p><a class="more-link" href="{{ '/blog/' | relative_url }}">All posts &rarr;</a></p>
+</section>
+
+<section class="home-section">
+  <h2 class="section-head">Recent paintings</h2>
+  <div class="gallery gallery--preview">
+    {% for painting in site.data.paintings limit:3 %}
+    <figure class="gallery-item">
+      <img src="{{ painting.image | relative_url }}" alt="{{ painting.title }}" loading="lazy">
+      <figcaption>{{ painting.title }}</figcaption>
+    </figure>
+    {% endfor %}
+  </div>
+  <p><a class="more-link" href="{{ '/paintings/' | relative_url }}">See the gallery &rarr;</a></p>
+</section>

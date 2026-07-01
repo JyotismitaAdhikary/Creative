@@ -1,0 +1,20 @@
+# ── Your paintings ──────────────────────────────────────────────
+# To add a painting:
+#   1. Put the image file in  assets/images/
+#   2. Add a block below (mind the indentation and the leading "- ")
+#
+# image:   path to the file (must start with /assets/images/)
+# title:   shown under the image
+# caption: optional - medium, year, a note, anything
+
+- image: /assets/images/painting1.jpg
+  title: "Untitled study"
+  caption: "Watercolour, 2026"
+
+- image: /assets/images/painting2.jpg
+  title: "Evening"
+  caption: "Acrylic on paper"
+
+- image: /assets/images/painting3.jpg
+  title: "Work in progress"
+  caption: "Gouache"
