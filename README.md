@@ -3,7 +3,7 @@
 A small personal site for blog posts and a paintings gallery, hosted free on
 GitHub Pages. Themed to match my main portfolio.
 
----
+
 
 ## Publish it on GitHub Pages
 
