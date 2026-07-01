@@ -8,10 +8,10 @@ title: About
 
 <div class="prose">
   <p>
-    I'm Jyotismita — a computational physicist finishing my PhD in Warsaw. By day I
+    I'm Jyotismita, a computational physicist finishing my PhD in Warsaw. By day I
     work with simulations, data, and statistics; this little corner of the web is for
     everything else: things I paint, things I read, and things I'm slowly learning
-    (Finnish and Polish, currently).
+    (Finnish and Polish, a little bit of chess also, currently).
   </p>
   <p>
     This site is a place to keep track of those hobbies and share them. If you'd like
