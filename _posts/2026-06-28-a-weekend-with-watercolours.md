@@ -5,13 +5,5 @@ date: 2026-06-28
 tags: [painting]
 ---
 
-Spent Sunday afternoon on a small watercolour study. Still figuring out how much
-water is *too* much water — apparently quite a lot less than I think.
+Spent this weekend on a small watercolour study. Still figuring out how much water is *too* much water. Apparently quite a lot less than I think. I generally like to add multiple types of paint on one painting 🖼️. 
 
-Here's how you embed an image inside a post (the file lives in `assets/images/`):
-
-![A watercolour study]({{ "/assets/images/painting1.jpg" | relative_url }})
-
-That `{% raw %}{{ "..." | relative_url }}{% endraw %}` bit just makes sure the
-link works whether the site is hosted at the root or in a sub-folder. Copy that
-pattern any time you add an image to a post.
