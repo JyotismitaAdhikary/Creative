@@ -11,6 +11,7 @@ my face early in the morning when I slept. Its warmth making me happy and asking
 my bed, still, absorbing all of the warmth. Slowly came summer. The sun shone on my face while I slept. This time forcing me to wake up. I shifted, 
 twisted and turned to get away from it. Cursing why I didn't fix my blinds. Didn't manage to fix it anyway. Call it laziness or anticipation for better days.
 Came autumn, the sun woke me up gently while I slept. I basked in it acknowledging how good it is to have the gentle sun on my face in the morning, it is going
-to go away soon. I questioned the old me of summer about her inconveniences with the sun. I convinced myself why are the blinds needed anyway. Then came winter.
+to go away soon. I questioned the old me of summer about her inconveniences with the sun. I convinced myself why are the blinds needed anyway. 
 
-It has been four years since. The blinds are still not fixed. Call it blinds or call it surety. Only hope remains. 
+Then came winter. The sun no longer reached my face.
+It has been four years since. The blinds are still not fixed. Call it laziness, call it something I've chosen to keep. Either way, come spring, the sun still finds my face. 
