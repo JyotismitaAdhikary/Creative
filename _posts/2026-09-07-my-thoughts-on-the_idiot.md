@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "My thoughts on "The Idiot" by Fyodor Dostoyevsky part 1"
+title: "My thoughts on The Idiot by Fyodor Dostoyevsky part 1"
 date: 2026-09-07
 tags: [life]
 ---
